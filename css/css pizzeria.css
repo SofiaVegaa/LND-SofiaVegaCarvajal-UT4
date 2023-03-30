@@ -1,0 +1,17 @@
+/* Estilo para los títulos del menú */
+  .nav-link {
+    color: blue;
+    font-weight: bold;
+  }
+/* Estilo para los iconos de Font Awesome */
+.nav-link i {
+    font-size: 1.2rem; /* ajusta el tamaño del icono según tus necesidades */
+    margin-right: 5px; /* ajusta el margen derecho según tus necesidades */
+    color: blue;
+  }
+  
+  /* Estilo para los iconos cuando el usuario pasa el ratón sobre ellos */
+  .nav-link:hover i {
+    color: red; 
+  }
+  
