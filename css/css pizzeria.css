@@ -1,0 +1,71 @@
+/* PAGINA PRINCIAL */
+  
+  /* Estilo para los títulos del menú */
+    .nav-link {
+      /* color: blue;
+      font-weight: bold; */
+    }
+    .navbar {
+      background-color: #698269;
+    }
+    
+  /* Estilo para los iconos de Font Awesome */
+  .nav-link i {
+      font-size: 1.2rem; /* ajusta el tamaño del icono según tus necesidades */
+      margin-right: 5px; /* ajusta el margen derecho según tus necesidades */
+      color: #02411c;
+    }
+    
+    /* Estilo para los iconos cuando el usuario pasa el ratón sobre ellos */
+    .nav-link:hover i {
+      color: #ce5252; 
+    }
+    
+/* PIZZAS ARTESANALES  */
+.carousel-item img {
+  height: 400px; /* ajusta la altura de las imágenes */
+  object-fit: cover; /* ajusta la forma en que se ajusta la imagen al tamaño del contenedor */
+  object-position: center; /* ajusta la posición de la imagen dentro del contenedor */
+}
+
+#myCarousel {
+  background-color: #e91cd8;
+}
+
+
+/* platos */
+.tamanofoto{
+  width: 95%;
+  height: 95%;
+
+}
+
+/* Nosotros */
+body {
+  background-color: #F1DBBF;
+  color: #698269;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #AA5656;
+}
+
+/* a {
+  color: #B99B6B;
+} */
+
+button {
+  background-color: #AA5656;
+  color: #F1DBBF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
