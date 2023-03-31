@@ -1,120 +1,204 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Pizzeria Mari</title>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pizzeria Mari</title>
   <!-- Archivos css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css pizzeria.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/css pizzeria.css">
   <!-- Script del nabar -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- Enlaces del Fontawesome -->
-    <link href="fontawesome-free-5.3.1-web/css/fontawesome.min.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/c4eb57b10e.js" crossorigin="anonymous"></script>
-  </head>
-  
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="imagenes/logo.png" alt="Logo de la tienda" style="width: 150px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active" id="logoinicio">
-              <a class="nav-link" href="Pagina principal.html"><i class="fa-solid fa-house"></i>Inicio</a>
-            </li>
-            <li class="nav-item" id="logonosotros">
-              <a class="nav-link" href="Nosotros.html"><i class="fa-solid fa-user"></i>Nosotros</a>
-            </li>
-            <li class="nav-item" id="logopizzas">
-              <a class="nav-link" href="Pizzas.html"><i class="fa-solid fa-pizza-slice"></i>Pizzas Artesanales</a>
-            </li>
-            <li class="nav-item active" id="logoplatos">
-              <a class="nav-link" href="Platos.html"><i class="fa-solid fa-utensils"></i>Platos</a>
-            </li>
-          </ul>
+  <link href="fontawesome-free-5.3.1-web/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/c4eb57b10e.js" crossorigin="anonymous"></script>
+  <!-- Enlace de googlefonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="Pagina principal.html">
+      <img class="logo" src="imagenes/logo.png" alt="Logo de la tienda">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Pagina principal.html"><i class="fa-solid fa-house"></i>Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html"><i class="fa-solid fa-user"></i>Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Pizzas.html"><i class="fa-solid fa-pizza-slice"></i>Pizzas Artesanales</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Platos.html"><i class="fa-solid fa-utensils"></i>Platos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <section class="featured-products lista">
+    <h2 class="tituloplatos">Productos destacados</h2>
+    <div class="row container-fluid">
+      <div class="col-lg-2 col-md-4 col-sm-6 tamanodiv">
+        <div class="featured-product">
+          <img src="imagenes/Plato_carne.png" alt="Solomillo Vasco" class="tamanofoto">
+          <h3>Filetto di Manzo a la Pimienta</h3>
+          <p>(Solomillo de ternera con salsa a la pimienta.)</p>
         </div>
-      </nav>
-  </header>
-  <body>
-    <section class="featured-products">
-        <h2>Productos destacados</h2>
-        <div class="row container-fluid">
-          <div class="col-lg-2 col-md-4 col-sm-6 tamanodiv">
-            <div class="featured-product">
-              <img src="imagenes/pizza_calzone.png" alt="Producto 1" class="tamanofoto">
-              <h3>Producto 1</h3>
-              <p>Descripción breve del producto 1.</p>
-              <p class="price">25€</p>
-            </div>
-          </div>
-          <div class="col col-lg-2 col-md-4 col-sm-6">
-            <div class="featured-product tamanodiv">
-              <img src="imagenes/pizza_margarita.png" alt="Producto 2" class="tamanofoto">
-              <h3>Producto 2</h3>
-              <p>Descripción breve del producto 2.</p>
-              <p class="price">35€</p>
-            </div>
-          </div>
-          <div class="col col-lg-2 col-md-4 col-sm-6">
-            <div class="featured-product">
-              <img src="imagenes/pizza_napolitana.png" alt="Producto 3" class="tamanofoto">
-              <h3>Producto 3</h3>
-              <p>Descripción breve del producto 3.</p>
-              <p class="price">45€</p>
-            </div>
-          </div>
-          <div class="col col-lg-2 col-md-4 col-sm-6">
-            <div class="featured-product">
-              <img src="imagenes/pizza_calzone.png" alt="Producto 4" class="tamanofoto">
-              <h3>Producto 4</h3>
-              <p>Descripción breve del producto 4.</p>
-              <p class="price">55€</p>
-            </div>
-          </div>
-          <div class="col col-lg-2 col-md-4 col-sm-6">
-            <div class="featured-product">
-              <img src="imagenes/pizza_margarita.png" alt="Producto 5" class="tamanofoto">
-              <h3>Producto 5</h3>
-              <p>Descripción breve del producto 5.</p>
-              <p class="price">65€</p>
-            </div>
-          </div>
-          <div class="col col-lg-2 col-md-4 col-sm-6">
-            <div class="featured-product">
-              <img src="imagenes/pizza_napolitana.png" alt="Producto 6" class="tamanofoto">
-              <h3>Producto 6</h3>
-              <p>Descripción breve del producto 6.</p>
-              <p class="price">75€</p>
-            </div>
-          </div>
+      </div>
+      <div class="col col-lg-2 col-md-4 col-sm-6">
+        <div class="featured-product tamanodiv">
+          <img src="imagenes/entrecot_griglia.png" alt="Producto 2" class="tamanofoto">
+          <h3>Entrecot a la Griglia</h3>
+          <p>(Entrecot all grill)</p>
         </div>
-      </section> 
-  </body>
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <h4>Redes sociales</h4>
-          <ul class="social-media">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          </ul>
+      </div>
+      <div class="col col-lg-2 col-md-4 col-sm-6">
+        <div class="featured-product">
+          <img src="imagenes/carne_mazo.png" alt="Producto 3" class="tamanofoto">
+          <h3>Filetto de Manzo</h3>
+          <p>(Solomillo de ternera al grill, parmesano, rúcula)</p>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <h4>Contacto</h4>
-          <ul class="contact-info">
-            <li><i class="fa fa-envelope"></i> correo@ejemplo.com</li>
-            <li><i class="fa fa-github"></i> <a href="#">repositorio</a></li>
-          </ul>
+      </div>
+      <div class="col col-lg-2 col-md-4 col-sm-6">
+        <div class="featured-product">
+          <img src="imagenes/Escalope_plato.png" alt="Producto 4" class="tamanofoto">
+          <h3>Scaloppine di Maiale a la Griglia</h3>
+          <p>(Solomillo de cerdo)</p>
+        </div>
+      </div>
+      <div class="col col-lg-2 col-md-4 col-sm-6">
+        <div class="featured-product">
+          <img src="imagenes/Plato_pechugapng.jpg" alt="Producto 5" class="tamanofoto">
+          <h3>Perchuga de Pollo Plancha</h3>
+          <p>(Pechuga de pollo a la plancha con papas fritas)</p>
+        </div>
+      </div>
+      <div class="col col-lg-2 col-md-4 col-sm-6">
+        <div class="featured-product">
+          <img src="imagenes/plato_tropical.png" alt="Producto 6" class="tamanofoto">
+          <h3>Pollo Tropical</h3>
+          <p>(tiras de pechugas de pollo,uvas pasas, piñas, arroz y salsa de nata)</p>
         </div>
       </div>
     </div>
+  </section>
+  <div class="card-group">
+    <div class="card">
+      <div class="card-body">
+        <h3>Filetto</h3>
+
+        <h5 class="card-title">Filetto di Manzo Parmesano</h5>
+        <p class="card-text">(solomillo de ternera al grill, parmesano, rúcula)</p>
+        <h5 class="card-text"><small class="text-body-secondary">17.90€</small></h5>
+
+        <h5>Filetto di Manzo a la Pimienta</h5>
+        <p class="card-text">(solomillo de ternera con salsa a la pimienta)</p>
+        <h5 class="card-text"><small class="text-body-secondary">17.90€</small></h5>
+
+        <h5>Filetto di Manzo a la Griglia</h5>
+        <p class="card-text">(solomillo de ternera al grill)</p>
+        <h5 class="card-text"><small class="text-body-secondary">17.90€</small></h5>
+
+        <h5>Filetto di Manzo Gorgonzola</h5>
+        <p class="card-text">(solomillo de ternera con salsa de queso gorgonzola)</p>
+        <h5 class="card-text"><small class="text-body-secondary">17.90€</small></h5>
+
+        <h5>Filetto di Manzo al Funghi</h5>
+        <p class="card-text">(solomillo de ternera con salsa de champiñones y nata)</p>
+        <h5 class="card-text"><small class="text-body-secondary">17.90€</small></h5>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Scaloppine</h3>
+
+        <h5 class="card-title">Scaloppine di Maiale a la Griglia</h5>
+        <p class="card-text">(solomillo de cerdo al grill)</p>
+        <h5 class="card-text"><small class="text-body-secondary">12.90€</small></h5>
+
+        <h5>Scaloppine di Maiale Gorgonzola.</h5>
+        <p class="card-text">(solomillo de cerdo con salsa de queso gorgonzola)</p>
+        <h5 class="card-text"><small class="text-body-secondary">12.90€</small></h5>
+
+        <h5>Scaloppine di Maiale al Limone.</h5>
+        <p class="card-text">(solomillo de cerdo al limón)</p>
+        <h5 class="card-text"><small class="text-body-secondary">12.90€</small></h5>
+
+        <h5>Scaloppine di Maiale Milanese.</h5>
+        <p class="card-text">(solomillo de cerdo empanado)</p>
+        <h5 class="card-text"><small class="text-body-secondary">12.90€</small></h5>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Entrecot</h3>
+
+        <h5 class="card-title">Entrecot a la Griglia</h5>
+        <p class="card-text">(entrecot al grill)</p>
+        <h5 class="card-text"><small class="text-body-secondary">13.90€</small></h5>
+
+        <h5>Entrecot de la Huerta</h5>
+        <p class="card-text">(tiras de entrecot salteado con verduras de la huerta)</p>
+        <h5 class="card-text"><small class="text-body-secondary">13.90€</small></h5>
+
+        <h5>Entrecot a la Griglia.</h5>
+        <p class="card-text">(entrecot al grill)</p>
+        <h5 class="card-text"><small class="text-body-secondary">13.90€</small></h5>
+
+        <h5>Entrecot Speciale.</h5>
+        <p class="card-text">(entrecot, ajo romero, aceite de oliva virgen extra)</p>
+        <h5 class="card-text"><small class="text-body-secondary">13.90€</small></h5>
+      </div>
+    </div>
+</body>
+<div class="container-fluid">
+  <footer class="row py-5 my-5 border-top justify-content-center" style="background-color: #698269;">
+    <div class="mb-1 col-md-4 col-sm-6">
+      <img src="imagenes/logo.png" style="width: 25%;">
+      <p class=" texthead" style="color: #02411c;">&copy; 2023 Pizzeria Mari</p>
+
+    </div>
+
+    <div class="mb-1 col-md-4 col-sm-6">
+      <h5 class="text-center texthead titulospie">Más Información</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center"
+            style="color: #02411c">Inicio</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center" style="color: #02411c">Tabaja
+            con nosotros</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center"
+            style="color: #02411c">Sobrenosotros</a></li>
+      </ul>
+    </div>
+
+    <div class="mb-1 col-md-4 col-sm-6">
+      <h5 class="text-center texthead titulospie">Redes Sociales</h5>
+      <ul class="nav flex-column text-center">
+        <li class="nav-item mb-2"><a href="https://twitter.com/" class="nav-link p-0 textfoot text-center"
+            style="color: #02411c;"><i class="fa-brands fa-twitter iconfoot"></i>Twitter</a></li>
+        <li class="nav-item mb-2"><a href="https://es-es.facebook.com/" class="nav-link p-0 textfoot text-center"
+            style="color: #02411c"><i class="fa-brands fa-facebook iconfoot"></i>Facebook</a></li>
+        <li class="nav-item mb-2"><a href="https://www.instagram.com/" class="nav-link p-0 textfoot text-center"
+            style="color: #02411c"><i class="fa-brands fa-instagram iconfoot"></i>Instagram</a></li>
+        <li class="nav-item mb-2"><a href="https://github.com/SofiaVegaa/LND-SofiaVegaCarvajal-UT4"
+            class="nav-link p-0 textfoot text-center" style="color: #02411c"><i
+              class="fa-brands fa-github iconfoot"></i>Github</a></li>
+      </ul>
+    </div>
   </footer>
+</div>
+
 </html>

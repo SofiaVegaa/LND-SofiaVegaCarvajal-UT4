@@ -1,59 +1,117 @@
-/* PAGINA PRINCIAL */
-  
-  /* Estilo para los títulos del menú */
-    .nav-link {
-      /* color: blue;
-      font-weight: bold; */
-    }
-    .navbar {
-      background-color: #698269;
-    }
-    
-  /* Estilo para los iconos de Font Awesome */
-  .nav-link i {
-      font-size: 1.2rem; /* ajusta el tamaño del icono según tus necesidades */
-      margin-right: 5px; /* ajusta el margen derecho según tus necesidades */
-      color: #02411c;
-    }
-    
-    /* Estilo para los iconos cuando el usuario pasa el ratón sobre ellos */
-    .nav-link:hover i {
-      color: #ce5252; 
-    }
-    
+/* La paleta usada es https://colorhunt.co/palette/698269b99b6bf1dbbfaa5656 */
+
+
+/* Fuente */
+* {
+  font-family: 'Playfair Display', serif;
+  fallback-font: Arial, sans-serif;
+}
+
+/* BARRA PRINCIPAL */
+.navbar {
+  background-color: #698269;
+}
+
+.logo {
+  width: 150px
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Estilo para los iconos de Font Awesome */
+.nav-link i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  color: #02411c;
+}
+
+/* Estilo para los iconos cuando el usuario pasa el ratón sobre ellos */
+.nav-link:hover i {
+  color: #e75f7c;
+}
+
+.menu {
+  margin-left: 20px;
+}
+
+/* PIE DE PAGINA */
+.titulospie {
+  font-weight: bold;
+  color: #02411c;
+}
+
+
 /* PIZZAS ARTESANALES  */
 .carousel-item img {
-  height: 400px; /* ajusta la altura de las imágenes */
-  object-fit: cover; /* ajusta la forma en que se ajusta la imagen al tamaño del contenedor */
-  object-position: center; /* ajusta la posición de la imagen dentro del contenedor */
+  height: 400px;
+  /* ajusta la altura de las imágenes */
+  object-fit: cover;
+  /* ajusta la forma en que se ajusta la imagen al tamaño del contenedor */
+  object-position: center;
+  /* ajusta la posición de la imagen dentro del contenedor */
+}
+
+.titulospizzas {
+  font-weight: bold;
+}
+
+.tituloscarrusel {
+  background-color: rgba(250, 235, 215, 0.733);
+  font-weight: bold;
+
 }
 
 #myCarousel {
-  background-color: #e91cd8;
+  background-color: #B99B6B;
 }
 
 
-/* platos */
-.tamanofoto{
+/* PLATOS */
+.tamanofoto {
   width: 95%;
   height: 95%;
 
 }
 
-/* Nosotros */
+.tituloplatos {
+  font-weight: bold;
+}
+
+.lista {
+  margin-left: 20px;
+}
+
+.card-group {
+  margin: 20px;
+}
+
+
+/* NOSOTROS */
 body {
   background-color: #F1DBBF;
   color: #698269;
   font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #AA5656;
 }
 
-/* a {
-  color: #B99B6B;
-} */
 
 button {
   background-color: #AA5656;
@@ -63,9 +121,3 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
-
-
-
-
-
-

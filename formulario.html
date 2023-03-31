@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzeria Mari</title>
+    <!-- Archivos css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css pizzeria.css">
+    <!-- Script del nabar -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Enlaces del Fontawesome -->
+    <link href="fontawesome-free-5.3.1-web/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c4eb57b10e.js" crossorigin="anonymous"></script>
+    <!-- Enlace de googlefonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="Pagina principal.html">
+            <img class="logo" src="imagenes/logo.png" alt="Logo de la tienda">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Pagina principal.html"><i class="fa-solid fa-house"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Nosotros.html"><i class="fa-solid fa-user"></i>Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pizzas.html"><i class="fa-solid fa-pizza-slice"></i>Pizzas Artesanales</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Platos.html"><i class="fa-solid fa-utensils"></i>Platos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6" style="background-color: antiquewhite;">
+                <h1>Formulario de Pedido de Pizza</h1>
+
+                <form action="procesar_pedido.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="direccion">Dirección de entrega:</label>
+                    <input type="text" id="direccion" name="direccion" required><br><br>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                    <label for="tamaño">Tamaño:</label>
+                    <select id="tamaño" name="tamaño">
+                        <option value="personal">Personal</option>
+                        <option value="mediana">Mediana</option>
+                        <option value="familiar">Familiar</option>
+                    </select><br><br>
+
+                    <label for="masa">Masa:</label>
+                    <input type="radio" id="masa-delgada" name="masa" value="delgada" required>
+                    <label for="masa-delgada">Delgada</label>
+                    <input type="radio" id="masa-gruesa" name="masa" value="gruesa">
+                    <label for="masa-gruesa">Gruesa</label><br><br>
+
+                    <label>Ingredientes:</label><br>
+                    <input type="checkbox" id="jamon" name="ingredientes[]" value="jamon">
+                    <label for="jamon">Jamón</label><br>
+                    <input type="checkbox" id="queso" name="ingredientes[]" value="queso">
+                    <label for="queso">Queso</label><br>
+                    <input type="checkbox" id="cebolla" name="ingredientes[]" value="cebolla">
+                    <label for="cebolla">Cebolla</label><br><br>
+
+                    <input type="submit" value="Hacer Pedido">
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <img src="imagenes/Pedido.png" class="img-fluid" alt="Pizza">
+            </div>
+        </div>
+    </section>
+</body>
+<div class="container-fluid">
+    <footer class="row py-5 my-5 border-top justify-content-center" style="background-color: #698269;">
+        <div class="mb-1 col-md-4 col-sm-6">
+            <img src="imagenes/logo.png" style="width: 25%;">
+            <p class=" texthead" style="color: #02411c;">&copy; 2023 Pizzeria Mari</p>
+
+        </div>
+
+        <div class="mb-1 col-md-4 col-sm-6">
+            <h5 class="text-center texthead titulospie">Más Información</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center"
+                        style="color: #02411c">Inicio</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center"
+                        style="color: #02411c">Tabaja con nosotros</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 textfoot text-center"
+                        style="color: #02411c">Sobrenosotros</a></li>
+            </ul>
+        </div>
+
+        <div class="mb-1 col-md-4 col-sm-6">
+            <h5 class="text-center texthead titulospie">Redes Sociales</h5>
+            <ul class="nav flex-column text-center">
+                <li class="nav-item mb-2"><a href="https://twitter.com/" class="nav-link p-0 textfoot text-center"
+                        style="color: #02411c;"><i class="fa-brands fa-twitter iconfoot"></i>Twitter</a></li>
+                <li class="nav-item mb-2"><a href="https://es-es.facebook.com/"
+                        class="nav-link p-0 textfoot text-center" style="color: #02411c"><i
+                            class="fa-brands fa-facebook iconfoot"></i>Facebook</a></li>
+                <li class="nav-item mb-2"><a href="https://www.instagram.com/" class="nav-link p-0 textfoot text-center"
+                        style="color: #02411c"><i class="fa-brands fa-instagram iconfoot"></i>Instagram</a></li>
+                <li class="nav-item mb-2"><a href="https://github.com/SofiaVegaa/LND-SofiaVegaCarvajal-UT4"
+                        class="nav-link p-0 textfoot text-center" style="color: #02411c"><i
+                            class="fa-brands fa-github iconfoot"></i>Github</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</html>
