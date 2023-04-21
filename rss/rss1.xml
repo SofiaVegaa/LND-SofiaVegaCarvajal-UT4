@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>El menu</title>
+        <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+        <description>En este canal se publicara las novedades que surjan en la carta.</description>
+        <language>es</language>
+        <category>Restaurante</category>
+        <image>
+            <title>Pizzas</title>
+            <url>https://localguidegrancanaria.com/wp-content/uploads/pizzeri%CC%81a-Lacandella.jpg</url>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+        </image>
+        
+        <item>
+            <language>es</language>
+            <category>Menu</category>
+            <title>Nueva Pizza</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se ha añadido una nueva pizza al menu, se llama La mari. La nueva
+                especialidad de la casa </description>
+            <enclosure>
+                <title>La mari</title>
+                <url>https://www.bofrost.es/on/demandware.static/-/Sites-ES-master-catalog/default/dw75ead294/images/1782-pizza-especial.jpg</url>
+            </enclosure>
+            <guid>La mari</guid>
+            <author>Sofía Vega Carvajal</author>
+        </item>
+        
+        <item>
+            <language>Español</language>
+            <category></category>
+            <title></title>
+            <link></link>
+            <description></description>
+            <image></image>
+            <author></author>
+        </item>
+    </channel>
+</rss>
