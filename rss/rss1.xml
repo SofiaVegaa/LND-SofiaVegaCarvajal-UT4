@@ -14,7 +14,7 @@
         
         <item>
             <language>es</language>
-            <category>Menu</category>
+            <category>Menu Pizzas</category>
             <title>Nueva Pizza</title>
             <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
             <description>Se ha añadido una nueva pizza al menu, se llama La mari. La nueva
@@ -24,17 +24,37 @@
                 <url>https://www.bofrost.es/on/demandware.static/-/Sites-ES-master-catalog/default/dw75ead294/images/1782-pizza-especial.jpg</url>
             </enclosure>
             <guid>La mari</guid>
+            <fecha>21/04/2023</fechas>
             <author>Sofía Vega Carvajal</author>
         </item>
         
         <item>
-            <language>Español</language>
-            <category></category>
-            <title></title>
-            <link></link>
-            <description></description>
-            <image></image>
-            <author></author>
+            <language>es</language>
+            <category>Menu carnes</category>
+            <title>Nueva oferta en carnes</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se ha añadido una nueva oferta a la carte de las carnes. </description>
+            <enclosure>
+                <title>carne</title>
+                <url>https://media.gq.com.mx/photos/620bcf7243f71a078a355280/16:9/w_2560%2Cc_limit/carnes-85650597.jpg</url>
+            </enclosure>
+            <guid>carne</guid>
+            <fecha>21/04/2023</fechas>
+            <author>Sofía Vega Carvajal</author>
+
+            <item>
+            <language>es</language>
+            <category>Menu postes</category>
+            <title>Nuevo postre</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se ha añadido un nuevo postre a la carta </description>
+            <enclosure>
+                <title>tarta</title>
+                <url>https://content-cocina.lecturas.com/medio/2023/03/23/el-mejor-pastel-de-chocolate_24bd9cda_1200x1200.jpg</url>
+            </enclosure>
+            <guid>tarta</guid>
+            <fecha>21/04/2023</fechas>
+            <author>Sofía Vega Carvajal</author>
         </item>
     </channel>
 </rss>

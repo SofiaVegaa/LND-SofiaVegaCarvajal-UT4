@@ -1,4 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
+    <channel>
+        <title>Novedades</title>
+        <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+        <description>En este canal se publicara las novedades que surjan en el Restaurante.</description>
+        <language>es</language>
+        <category>Restaurante</category>
+        <image>
+            <title>Pizzas</title>
+            <url>https://localguidegrancanaria.com/wp-content/uploads/pizzeri%CC%81a-Lacandella.jpg</url>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+        </image>
+        
+        <item>
+            <language>es</language>
+            <category>Nueva ruta de envios</category>
+            <title>Nuevas rutas</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se ha añadido nuevas zonas donde podremos hacer envios a domicilio </description>
+            <enclosure>
+                <title>envios</title>
+                <url>https://i.blogs.es/0a0517/google-maps-detalles-nivel-calle/1366_2000.jpg</url>
+            </enclosure>
+            <guid>Reparto</guid>
+            <fecha>21/04/2023</fechas>
+            <author>Sofía Vega Carvajal</author>
+        </item>
+        
+        <item>
+            <language>es</language>
+            <category>ofertas</category>
+            <title>Nuevo lugar dodne buscar oferta</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se ha añadido la posibilidad de encontrar promociones por nuestra redes sociales.</description>
+            <enclosure>
+                <title>redes sociales</title>
+                <url>https://proximahost.es/blog/wp-content/uploads/2021/06/Redes-sociales.jpg</url>
+            </enclosure>
+            <guid>Redes</guid>
+            <fecha>21/04/2023</fechas>
+            <author>Sofía Vega Carvajal</author>
 
+            <item>
+            <language>es</language>
+            <category>Oferta Empleo/category</category>
+            <title>Nuevo camarero</title>
+            <link>https://sofiavegaa.github.io/LND-SofiaVegaCarvajal-UT4/</link>
+            <description>Se busca nuevo camarero o camarera para el Restaurante</description>
+            <enclosure>
+                <title>tarta</title>
+                <url>https://images.ecestaticos.com/z3o1MHldVClLRIxQ_bTSMvagOlU=/0x92:1681x1040/1338x751/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4a1%2F6a0%2Fa80%2F4a16a0a8063cac32f021ee2c1804bf4c.jpg</url>
+            </enclosure>
+            <guid>Camarero</guid>
+            <fecha>21/04/2023</fechas>
+            <author>Sofía Vega Carvajal</author>
+        </item>
+    </channel>
 </rss>
