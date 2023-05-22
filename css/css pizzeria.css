@@ -4,7 +4,7 @@
 /* Fuente */
 * {
   font-family: 'Playfair Display', serif;
-  fallback-font: Arial, sans-serif;
+  place-content: Arial, sans-serif;
 }
 
 /* BARRA PRINCIPAL */
